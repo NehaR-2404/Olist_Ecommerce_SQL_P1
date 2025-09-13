@@ -62,10 +62,11 @@ Insights from the analysis are saved in the `insights.md` file and highlight key
 
 ```
 Olist_Ecommerce_SQL_Project/
-├── queries/         # SQL queries used for analysis
-├── Query_Results/   # Query results in CSV format
-├── insights.md      # Detailed insights from the queries
-└── README.md        # Project description and documentation
+├── queries/          # SQL queries used for analysis
+├── Query_Results/    # Query results in CSV format
+├── insights.md       # Detailed insights from the queries
+├── dataset_link.txt  # Link to Kaggle dataset
+└── README.md         # Project description and documentation
 ```
 
 ## Tools Used
