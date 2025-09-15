@@ -1,7 +1,7 @@
 # Olist_Ecommerce_SQL_P1
 
 ## Project Overview
-This project is a comprehensive SQL analysis of the Olist E-commerce dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce). The goal is to extract actionable business insights through data cleaning, SQL queries, and detailed analysis. The project demonstrates SQL proficiency, data cleaning techniques, and the ability to interpret results for business decision-making.
+This project is a comprehensive SQL analysis of the Olist E-commerce dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce). The goal is to extract actionable business insights through data cleaning, SQL queries, and detailed analysis. The project demonstrates SQL proficiency and the ability to interpret results for business decision-making.
 
 ## Data Quality Note
 This first version of the project was built using the raw Olist dataset without extensive cleaning. 
