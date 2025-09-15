@@ -17,12 +17,16 @@ to provide more accurate insights.
 - Highlight operational challenges such as delivery delays and high cancellation rates.
 - Demonstrate SQL proficiency, data cleaning, and analytical reasoning for practical decision-making.
 
-## Data Preparation
-- Downloaded the dataset from Kaggle and explored each table to understand its structure and relationships.  
-- Checked for missing values, duplicates, and other inconsistencies.  
-- Initial attempts to directly import data into PostgreSQL faced issues due to primary key and foreign key constraints.  
-- **Solution:** Imported data into staging tables without constraints, then cleaned and transformed data. After ensuring integrity, inserted into the final tables with keys enforced.  
-- This approach maintained data integrity and allowed smooth querying.
+## Data Preparation## 
+
+-The Olist dataset was downloaded from Kaggle and explored to understand the structure and relationships between tables.  
+- Checked for null values and handled them during SQL querying to avoid incorrect results.  
+- Did not perform full duplicate removal before importing, so some duplicate rows remain in the dataset.  
+- Initial attempts to import data directly into tables with primary and foreign keys caused key violation errors.  
+- To resolve this, staging tables were created without constraints. Data was loaded into staging, and then inserted into the final tables where keys were enforced to maintain relational integrity.  
+
+**Note:** Future improvements will include cleaning duplicates at the data-loading stage for more robust results.
+
 
 ## SQL Queries & Analysis
 The project contains multiple SQL queries addressing key business questions, including:  
