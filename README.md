@@ -17,7 +17,7 @@ to provide more accurate insights.
 - Highlight operational challenges such as delivery delays and high cancellation rates.
 - Demonstrate SQL proficiency, data cleaning, and analytical reasoning for practical decision-making.
 
-## Data Preparation## 
+## Data Preparation
 
 -The Olist dataset was downloaded from Kaggle and explored to understand the structure and relationships between tables.  
 - Checked for null values and handled them during SQL querying to avoid incorrect results.  
